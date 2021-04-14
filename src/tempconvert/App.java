@@ -1,9 +1,11 @@
 // Temp Converter
+package tempconvert;
 import java.util.Scanner;
+import tempconvert.ConvertUtil;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Temperature Converter v0.0.1 by Vitobru");
+        System.out.println("Temperature Converter v0.0.4 by Vitobru");
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter degrees Fahrenheit:");
